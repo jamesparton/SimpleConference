@@ -39,7 +39,7 @@ Pointing Multiple Numbers To The Same Conference
 ================================================
 You may wish to provide local dial numbers in multiple countries to save your callers having to make expensive international calls.<br>
 This is simple to achieve.<br>
-Just buy additional Twilio numbers in the countries you need and repeat the 'Configuring your Twilio number' step for all the new numbers. When your callers dial their local number, they will all be directed into the same common conference room.<br>
+<p>Just buy additional Twilio numbers in the countries you need and repeat the 'Configuring your Twilio number' step for all the new numbers. When your callers dial their local number, they will all be directed into the same common conference room.<br>
 
 Retrieving Call Recordings
 =========================
