@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Say>Welcome to [insert your name] Twilio powered Conference Call. Note this call will be recorded. You will hear music until the next person joins.</Say>
+  <Say>Welcome to [Your Name] Twilio powered Conference Call. Note this call will be recorded. You will hear music until the next person joins.</Say>
   <Dial record="true">
     <Conference waitUrl="http://yourserver.com/yourmusic.mp3">JP's Conference Line</Conference>
   </Dial> 
