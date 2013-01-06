@@ -16,8 +16,9 @@ Preparation
 Creating the conference room
 ============================
 <ul>
-<li>Use the XML document contained in this repo.</li>
-<li>You only need to make one edit to the XML. Just switch the <code>Conference waitUrl</code> value to point to the MP3 track you want to play as your wait music.</li>
+<li>Use the XML document contained in this repo. You only need to make two edits to the XML.</li>
+<li>Edit 1: In the <code>Say</code> line replace [Your Name] with the name to be played to callers.</li>
+<li>Edit 2: Switch the <code>Conference waitUrl</code> value to point to the MP3 track you want to play as your wait music.</li>
 <li>Upload the XML doc to your server, or a hosting service like Twimlbin - http://twimlbin.com/</li>
 </ul>
 
