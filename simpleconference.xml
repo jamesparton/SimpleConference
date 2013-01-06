@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say>Welcome to James's Twilio powered Conference Call. Note this call will be recorded. You will hear music until the next person joins.</Say>
+  <Dial record="true">
+    <Conference waitUrl="http://jamesparton.info/demo.mp3">JP's Conference Line</Conference>
+  </Dial> 
+</Response>
