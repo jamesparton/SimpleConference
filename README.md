@@ -8,16 +8,17 @@ You can read the Twilio "HowTo" doc on conferencing here: http://www.twilio.com/
 
 Preparation
 ===========
-
-Open an account on http://twilio.com<br>
-Buy a phone number in your country of choice http://www.twilio.com/docs/howto/search-and-buy
+<ul>
+<li>Open an account on http://twilio.com</li>
+<li>Buy a phone number in your country of choice http://www.twilio.com/docs/howto/search-and-buy</li>
+</ul>
 
 Creating the conference room
 ============================
 
 Use the XML document contained in this repo.<br>
 You only need to make one edit to the XML. Just switch the <code>Conference waitUrl</code> value to point to the MP3 track you want to play as your wait music.<br>
-Upload the XML doc to your server, or a hosting service like Twimlbin - http://twimlbin.com/4a1fb535<br>
+Upload the XML doc to your server, or a hosting service like Twimlbin - http://twimlbin.com/<br>
 
 <p>This conference room will play hold music until at least two people are in the room, and will also make a recording of the call.
 
