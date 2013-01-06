@@ -15,38 +15,41 @@ Preparation
 
 Creating the conference room
 ============================
+<ul>
+<li>Use the XML document contained in this repo.</li>
+<li>You only need to make one edit to the XML. Just switch the <code>Conference waitUrl</code> value to point to the MP3 track you want to play as your wait music.</li>
+<li>Upload the XML doc to your server, or a hosting service like Twimlbin - http://twimlbin.com/</li>
+</ul>
 
-Use the XML document contained in this repo.<br>
-You only need to make one edit to the XML. Just switch the <code>Conference waitUrl</code> value to point to the MP3 track you want to play as your wait music.<br>
-Upload the XML doc to your server, or a hosting service like Twimlbin - http://twimlbin.com/<br>
-
-<p>This conference room will play hold music until at least two people are in the room, and will also make a recording of the call.
+This conference room will play hold music until at least two people are in the room, and will also make a recording of the call.
 
 Configuring your Twilio number
 ==============================
+<ul>
+<li>Once you have uploaded your XML document you just need to tell Twilio what to do when someone calls your number.</li>
+<li>Sign into your account on http://twilio.com and click on 'Numbers' in the navigation at the top of the page.</li>
+<li>Find the number you want your conference room to hang from and click on it.</li>
+<li>In the 'Voice Request URL' field type in the URL where you stored your XML.</li>
+<li>Click the 'Save Changes' button</li>
+</ul>
 
-Once you have uploaded your XML document you just need to tell Twilio what to do when someone calls your number.<br>
-Sign into your account on http://twilio.com and click on 'Numbers' in the navigation at the top of the page.<br>
-Find the number you want your conference room to hang from and click on it.<br>
-In the 'Voice Request URL' field type in the URL where you stored your XML.<br>
-Click the 'Save Changes' button<br>
-
-<p>That's it you're done!
+That's it you're done!
 
 Pointing Multiple Numbers To The Same Conference
 ================================================
-
-You may wish to provide local dial numbers in multiple countries to save your callers having to make expensive international calls.<br>
-This is simple to achieve.<br>
-Just buy additional Twilio numbers in the countries you need and repeat the 'Configuring your Twilio number' step for all the new numbers. When your callers dial their local number, they will all be directed into the same common confernece room.
+<ul>
+<li>You may wish to provide local dial numbers in multiple countries to save your callers having to make expensive international calls.</ul>
+<li>This is simple to achieve.</ul>
+<li>Just buy additional Twilio numbers in the countries you need and repeat the 'Configuring your Twilio number' step for all the new numbers. When your callers dial their local number, they will all be directed into the same common confernece room.</ul>
+</ul>
 
 Retrieving Call Recordings
 =========================
-
-You can retrive call recordings from your Twilio account.<br>
-Sign into your account on http://twilio.com and click on 'Logs' in the navigation at the top of the page<br>
-Then click on 'Recordings'<br>
-
+<ul>
+<li>You can retrive call recordings from your Twilio account.</li>
+<li>Sign into your account on http://twilio.com and click on 'Logs' in the navigation at the top of the page.</li>
+<li>Then click on 'Recordings'</li>
+</ul>
 
 Useful Links
 ============
